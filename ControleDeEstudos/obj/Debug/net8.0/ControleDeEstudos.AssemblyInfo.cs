@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleDeEstudos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3642809d8af991d8ff7fa38afcdecabe58ea3c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleDeEstudos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleDeEstudos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

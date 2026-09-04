@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ControleDeEstudos.Controllers.SessoesEstudosController",
+    "Method": "Inicar",
+    "RelativePath": "api/SessoesEstudos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ControleDeEstudos.DTOs.IniciarSessaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
