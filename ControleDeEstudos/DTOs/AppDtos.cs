@@ -1,6 +1,7 @@
-﻿namespace ControleDeEstudos.DTOs
+namespace ControleDeEstudos.DTOs
 {
     public record LoginDto(string Email, string Senha);
     public record IniciarSessaoDto(int AlunoId);
     public record FinalizarSessaoDto(int AlunoId);
+    public record AtualizarSessaoDto(DateTime Inicio, DateTime? Fim);
 }
