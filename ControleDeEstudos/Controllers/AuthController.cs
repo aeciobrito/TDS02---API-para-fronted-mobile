@@ -1,4 +1,4 @@
-﻿using ControleDeEstudos.Data;
+using ControleDeEstudos.Data;
 using ControleDeEstudos.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -25,7 +25,7 @@ namespace ControleDeEstudos.Controllers
 
             if (aluno == null)
             {
-                return Unauthorized("Email ou senha incorretos");
+                return Unauthorized(new { sucesso = false, mensagem = "Email ou senha incorretos" });
             }
 
             return Ok(new
